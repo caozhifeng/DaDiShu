@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
 	int timeRemain;// 剩余时间（毫秒）
 	int temp_timeRemain;// 临时存储剩余时间（秒）
 	static final short SHOW_TIMES = 1000;// 地鼠出现的间隔时间 单位：毫秒
-	static final int TIMEOUT_DEFAULT = 5 * 1000;// 游戏时间(秒/s)默认为60s
+	static final int TIMEOUT_DEFAULT = 60 * 1000;// 游戏时间(秒/s)默认为60s
 	
 	int index;// 显示地鼠的索引，产生的随机数
 
